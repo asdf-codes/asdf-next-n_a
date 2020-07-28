@@ -1,11 +1,12 @@
-import {DefaultLayout} from '../components/layouts'
+import {DefaultSection, ShelfSection, ProfitSection, AdjectiveSection} from '../components/sections'
 
 export default function Home() {
   return (
     <div className="container">
-      <DefaultLayout> 
-       WELCOME TO NO ADJECTIVE
-      </DefaultLayout>
+      <DefaultSection/> 
+      <ShelfSection />
+      <ProfitSection/>
+      <AdjectiveSection/>
       <style jsx>{`
        
       `}</style>
