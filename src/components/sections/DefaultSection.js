@@ -1,4 +1,5 @@
 import {DefaultLayout} from '../layouts'
+import {Button} from '../atoms'
 
 export const DefaultSection = () => {
     return(
@@ -12,9 +13,7 @@ export const DefaultSection = () => {
                 <h1>
                     DESIGNED AND SOLD IN <a href='https://613.news/'>613</a>
                 </h1>
-            <a href="#next">
-                Scroll
-            </a>
+            <Button title="Get It On Shopify"/>
             </DefaultLayout>
             </div>
 
