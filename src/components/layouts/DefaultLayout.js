@@ -32,8 +32,7 @@ export const DefaultLayout = ({children}) => {
                     margin: 0 auto;
                     height: 100vh; 
                     display: grid;
-                    place-items: center;      
-                    text-align: center;             
+                    place-items: center;                   
                 }
            
            `}</style>

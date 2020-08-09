@@ -1,7 +1,8 @@
-export const Button = ({title}) => {
+export default function Button() {
     return(
     <>
         <div>
+<<<<<<< HEAD
             <a href="www.noadjective-com.myshopify.com ">
                 {title}
             </a>
@@ -34,6 +35,12 @@ export const Button = ({title}) => {
                 width: 200px;
                 
             } 
+=======
+        This is a button
+        </div>
+
+        <style jsx>{`   
+>>>>>>> parent of b7822b9... sections added, changes made
        
        `}</style>
     </>
