@@ -2,7 +2,7 @@ export const Button = ({title}) =>{
     return(
     <>
         <div>
-            <a href="www.noadjective-com.myshopify.com ">
+            <a href="https://noadjective-com.myshopify.com/">
                 {title}
             </a>
         </div>
