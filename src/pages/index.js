@@ -11,7 +11,7 @@ export default function Home() {
       {/* <ProfitSection/>
       <AdjectiveSection/>
       <Shopify/> */}
-      <Footer/>
+     
       <style jsx>{`
        
       `}</style>
