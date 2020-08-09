@@ -1,18 +1,24 @@
-import {DefaultSection, ShelfSection, ProfitSection, AdjectiveSection} from '../components/sections'
+import {DefaultSection, ShelfSection, ProfitSection, AdjectiveSection, ParalaxSection, Shopify} from '../components/sections'
+import Footer from '../components/layouts/Footer'
+
 
 export default function Home() {
   return (
     <div className="container">
+      {/* <ParalaxSection/> */}
       <DefaultSection/> 
-      <ShelfSection />
+      
       <ProfitSection/>
       <AdjectiveSection/>
+      <Shopify/>
+      <Footer/>
       <style jsx>{`
        
       `}</style>
 
-      <style jsx global>{`
+      <style jsx>{`
        
+
       `}</style>
     </div>
   )

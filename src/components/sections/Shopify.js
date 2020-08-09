@@ -3,31 +3,35 @@ import {Button} from '../atoms'
 import {DefaultLayout} from '../layouts'
 import utilStyles from '../../styles/utils.module.css'
 
-export const AdjectiveSection = () => {
+export const Shopify = () => {
     return (
         <>
         <div 
             className={`div ${utilStyles.widthL} ${utilStyles.center} ${utilStyles.height40}`}>
-        <div>
-        <h2>NO ADJECTIVE</h2>
-        <h4> Decription Is Unnecessary</h4>
-        </div>
+        
 
         {/* <div>
             <img className="image" src="/weird.png" />
         </div> */}
 
-        
+        <div className="flex">
+        <div >
+            <Button title="Get It On Shopify"/>
+        </div>
+        <div>
+            <Button title="Read Our Story"/>
+        </div>
+        </div>
         </div>
         <style jsx>{`   
             .flex {
                 display: flex;
+                gap: 1rem;
             }
 
-            .image {
-            max-width: 400px;
-             }
-            
+            .div {
+                margin-bottom: 30vh;
+            }
             
        
        `}</style>
