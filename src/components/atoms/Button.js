@@ -3,6 +3,7 @@ export default function Button() {
     <>
         <div>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <a href="www.noadjective-com.myshopify.com ">
                 {title}
             </a>
@@ -35,6 +36,12 @@ export default function Button() {
                 width: 200px;
                 
             } 
+=======
+        This is a button
+        </div>
+
+        <style jsx>{`   
+>>>>>>> parent of b7822b9... sections added, changes made
 =======
         This is a button
         </div>
