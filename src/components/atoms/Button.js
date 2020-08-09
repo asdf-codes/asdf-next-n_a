@@ -4,16 +4,20 @@ export default function Button() {
         <div>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <a href="www.noadjective-com.myshopify.com ">
+=======
+            <a href="https://www.figma.com">
+>>>>>>> parent of c087fa4... i dont even remeber what i have changed. too many changes
                 {title}
             </a>
         </div>
 
         <style jsx>{`  
             a {
-                color: white;
-                
-                border: 2px solid white;
+                color: black;
+                background-color: white;
+                border: 2px solid #000000;
                 font-size: 24px;
                 border-radius: 100px;
                 height: 40px;
@@ -21,20 +25,16 @@ export default function Button() {
                 transition: 0.3s;
                 cursor: pointer;
                 padding: 0.5rem;
-                
-    mix-blend-mode: exclusion;
             } 
 
             a:hover {
-                color: black;
-                background-color: white;
-                mix-blend-mode: exclusion;
+                color: white;
+                background-color: black;
                 border: 2px solid #000000;
                 font-size: 24px;
                 border-radius: 100px;
                 height: 40px;
                 width: 200px;
-                
             } 
 =======
         This is a button
