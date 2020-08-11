@@ -9,8 +9,7 @@ export const Button = ({title}) =>{
 
         <style jsx>{`  
             a {
-                color: black;
-                
+                color: black;               
                 border: 2px solid black;
                 font-size: 24px;
                 border-radius: 100px;
@@ -20,13 +19,13 @@ export const Button = ({title}) =>{
                 cursor: pointer;
                 padding: 0.5rem;
                 
-    mix-blend-mode: exclusion;
+   
             } 
 
             a:hover {
                 color: white;
                 background-color: black;
-                mix-blend-mode: exclusion;
+              
                 border: 2px solid #000000;
                 font-size: 24px;
                 border-radius: 100px;
